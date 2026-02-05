@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Just One Question 💍</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- INTRO SCREEN -->
+<div id="intro" class="screen active">
+  <h1>Hey Love ❤️</h1>
+  <p>This little surprise is best enjoyed with sound 🎶</p>
+  <button id="startBtn">Open with sound 🔊</button>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="app" class="screen">
+  <h2 id="question"></h2>
+  <div class="buttons">
+    <button id="yesBtn">Yes 💖</button>
+    <button id="noBtn">No 🙈</button>
+  </div>
+</div>
+
+<!-- FINAL SCREEN -->
+<div id="final" class="screen">
+  <h1>YAYYYYY 😭❤️</h1>
+  <p>You just made me the happiest person alive!</p>
+  <img id="finalImg" src="" alt="Love" />
+</div>
+
+<audio id="bgMusic" src="assets/song.mp3" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
